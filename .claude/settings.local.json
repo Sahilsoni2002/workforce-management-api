@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew:*)",
+      "Bash(gradle:*)",
+      "Bash(\"/c/Windows/System32/cmd.exe\" /c \"gradlew.bat bootRun\")",
+      "Bash(find:*)"
+    ],
+    "deny": []
+  }
+}
